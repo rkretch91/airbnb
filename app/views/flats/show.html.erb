@@ -1,0 +1,7 @@
+<h1><%= @flat['name'] %></h1>
+<%= link_to 'Back to amazing flats', root_path %>
+<ul>
+  <li><%= @flat['price'] %> <%= @flat['priceCurrency'] %></li>
+  <li><%= image_tag @flat['imageUrl'], alt: @flat['name'] %></li>
+</ul>
+
